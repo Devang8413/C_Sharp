@@ -10,6 +10,11 @@ namespace partial_class
     {
         static void Main(string[] args)
         {
+            Employee employee = new Employee();
+            employee.EmployeeName("Devang");
+            employee.EmployeeId(101);
+            employee.EmployeeId(30000);
         }
     }
 }
+

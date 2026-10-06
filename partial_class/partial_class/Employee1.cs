@@ -8,10 +8,9 @@ namespace partial_class
 {
     internal partial class Employee
     {
-        public void EmployeeName(string name)
+        public void EmployeeId(int EmployeeId)
         {
-            Console.WriteLine("Employee Name : " + name);
+            Console.WriteLine("Employee ID : " + EmployeeId);
         }
-
     }
 }

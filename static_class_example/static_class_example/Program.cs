@@ -4,18 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace partial_class
+namespace static_class_example
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Employee employee = new Employee();
+            Patient.PatientName("Deva");
 
-            employee.EmployeeName("Devang");
-            employee.EmployeeId(101);
-            employee.EmployeeId(30000);
+            Patient.PatientDescription("Sardi");
         }
     }
 }
-

@@ -17,7 +17,7 @@ namespace For_Loop_Example
 
             for (int i = 1; i <= number; i++)
             {
-                if (i > 6)
+                if (i > 6f)
                 {
                     break;
 
